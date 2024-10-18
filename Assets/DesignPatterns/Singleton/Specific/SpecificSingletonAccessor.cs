@@ -1,5 +1,5 @@
 using UnityEngine;
-using Singleton;
+using SingletonDesignPattern;
 
 public class SpecificSingletonAccessor : MonoBehaviour
 {
@@ -9,3 +9,5 @@ public class SpecificSingletonAccessor : MonoBehaviour
         Debug.Log(SpecificSingleton.Instance.Score);
     }
 }
+
+

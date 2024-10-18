@@ -1,5 +1,5 @@
 using UnityEngine;
-using Singleton;
+using SingletonDesignPattern;
 
 public class ScoreManagerAccessor : MonoBehaviour
 {

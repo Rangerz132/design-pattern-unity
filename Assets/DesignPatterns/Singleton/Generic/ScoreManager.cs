@@ -1,4 +1,4 @@
-namespace Singleton
+namespace SingletonDesignPattern
 {
     public class ScoreManager : GenericSingleton<ScoreManager>
     {
