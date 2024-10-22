@@ -141,6 +141,23 @@ The Strategy pattern defines a family of algorithms, encapsulates each one, and 
 
 ---
 
+### 8. Factory Pattern
+
+**Definition:**  
+The Factory Pattern is used to create objects without specifying the exact class of the object that will be created. It focuses on a single product type and its creation logic.
+
+**Advantages:**
+
+- Decouples the object creation process from the code that uses the objects.
+- Allows for easy addition of new product types without changing existing code.
+
+**Disadvantages:**
+
+- Can lead to an increase in the number of factory classes.
+- May complicate code structure if overused.
+
+---
+
 ## Conclusion
 
 These design patterns provide robust solutions to common problems in game development, enhancing maintainability, scalability, and code organization. Understanding the strengths and weaknesses of each pattern will help you implement them effectively in your Unity projects.
